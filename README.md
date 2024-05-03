@@ -16,3 +16,4 @@ This Python script offers a seamless and non-interruptible music generation expe
 6. **Install requirements**: pip install -r requirements.txt
 7. **Install the latest torch cuda**: Follow installation steps from here https://pytorch.org/get-started/locally/
 8. **Run the script** python infigen.py
+9. **Modify music genre**: Edit line 19
