@@ -8,12 +8,12 @@ This Python script offers a seamless and non-interruptible music generation expe
 
 ## Installation
 
-1. **Clone this repository**: git clone https://github.com/motexture/InfiGen/
-2. **Clone the audiocraft repo locally**: git clone https://github.com/facebookresearch/audiocraft
+1. **Clone the audiocraft repo locally**: git clone https://github.com/facebookresearch/audiocraft
 3. **Navigate to the folder**: cd audiocraft
 4. **Create a venv environment**: python -m venv myenv
 5. **Activate your env**: source env/bin/activate # On Windows use env\Scripts\activate
 6. **Install requirements**: pip install -r requirements.txt
 7. **Install the latest torch cuda**: Follow installation steps from here https://pytorch.org/get-started/locally/
-8. **Run the script** python infigen.py
-9. **Modify music genre**: Edit line 19
+8. **Download the infigen.py script to your audiocraft folder**: Ensure to place it on the main folder
+9. **Run the script**: python infigen.py
+10. **Modify music genre**: Edit line 19
