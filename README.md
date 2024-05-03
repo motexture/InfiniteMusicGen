@@ -9,7 +9,7 @@ This Python script offers a seamless and non-interruptible music generation expe
 ## Installation
 
 1. **Clone this repository**: git clone https://github.com/motexture/InfiGen/
-2. **Clone the audiocraft git locally**: git clone https://github.com/facebookresearch/audiocraft
+2. **Clone the audiocraft repo locally**: git clone https://github.com/facebookresearch/audiocraft
 3. **Navigate to the folder**: cd audiocraft
 4. **Create a venv environment**: python -m venv myenv
 5. **Activate your env**: source env/bin/activate # On Windows use env\Scripts\activate
