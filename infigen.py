@@ -11,7 +11,7 @@ def audio_generation_process(queue):
     device = 'cuda'
     sample_rate = 32000
     buffer_duration = 30
-    conditioning_seconds = 5
+    conditioning_seconds = 1
 
     model = MusicGen.get_pretrained('melody', device=device)
     model.set_generation_params(use_sampling=True, top_k=250, duration=buffer_duration)
@@ -31,7 +31,7 @@ def audio_generation_process(queue):
 audio_buffer = np.array([], dtype=np.float32)
 def audio_playback_process(queue):
     global audio_buffer
-    crossfade_duration = 1000
+    crossfade_duration = 500
     fade_out = np.linspace(1, 0, crossfade_duration)
     fade_in = np.linspace(0, 1, crossfade_duration)
 
